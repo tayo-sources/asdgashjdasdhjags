@@ -1,0 +1,55 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tayo-sources/library/master/aztupnew"))();
+
+local autoscripts = library:CreateSection("Auto Robs");
+local dahub = library:CreateSection("DaHub");
+
+
+
+autoscripts:Button("PostmanPat AutoRob Script",  function()
+
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/z17wDE8W'))()
+
+
+
+end);
+
+
+
+
+
+
+autoscripts:Button("RaceModex AutoRob Scripts",  function()
+
+
+
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/AqLV4Wii", true))()
+    --racemodex
+
+
+
+end);
+
+
+
+
+
+
+
+
+dahub:Button("Da Hub Loader",  function()
+
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tayo-sources/dahub/master/load"))()
+
+
+
+end)
+
+
+
+
+
+
+library:Ready();
